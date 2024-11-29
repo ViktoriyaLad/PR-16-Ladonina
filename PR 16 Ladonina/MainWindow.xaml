@@ -1,0 +1,15 @@
+﻿<Window x:Class="PR_16_Ladonina.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PR_16_Ladonina"
+        mc:Ignorable="d"
+        Title="Glavnaya" Height="450" Width="800">
+    <Grid>
+        <Canvas Background="#FF878787">
+            <Image Source="/Image/Аннотация 2024-11-26 125116.png" Height="63" Width="218" />
+            <Frame x:Name="myFrame" NavigationUIVisibility="Hidden" Navigated="myFrame_Navigated"/>
+        </Canvas>
+    </Grid>
+</Window>
